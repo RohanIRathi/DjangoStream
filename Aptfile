@@ -1,2 +1,2 @@
-libGL.so.1
+libgl1
 :repo heroku https://github.com/heroku/heroku-buildpack-apt.git
