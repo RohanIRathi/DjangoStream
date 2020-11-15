@@ -1,6 +1,1 @@
-libgl1
-libsm6
-libxrender1
-libfontconfig1
-libice6
-:repo heroku https://github.com/heroku/heroku-buildpack-apt.git
+opencv-python
