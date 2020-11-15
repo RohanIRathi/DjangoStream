@@ -1,1 +1,1 @@
-web: gunicorn websockets.asgi
+web: daphne websockets.asgi
