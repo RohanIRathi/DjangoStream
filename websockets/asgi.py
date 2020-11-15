@@ -1,6 +1,7 @@
 import os
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'websockets.settings')
+os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
 
 from channels.auth import AuthMiddlewareStack
 from channels.routing import ProtocolTypeRouter, URLRouter
