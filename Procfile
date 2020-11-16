@@ -1,1 +1,1 @@
-web: python3 manage.py runserver $HOST:$PORT
+web: python3 manage.py runserver hostname -I:$PORT
