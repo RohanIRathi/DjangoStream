@@ -1,1 +1,1 @@
-web: python3.8 manage.py runserver $PORT
+web: python3 manage.py runserver $PORT
