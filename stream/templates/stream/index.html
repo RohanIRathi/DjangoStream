@@ -23,7 +23,7 @@
         return data;
       };
 
-      const WS_URL = "ws://" + window.location.host;
+      const WS_URL = "wss://" + window.location.host;
       const FPS = 3;
       const ws = new WebSocket(WS_URL);
       ws.onopen = () => {
